@@ -27,8 +27,8 @@ namespace 'php_versions' do
   end
 
   namespace '5.4' do
-    version '5.4.30'
-    checksum '461afd4b84778c5845b71e837776139f'
+    version '5.4.36'
+    checksum 'd724ec84124ec948a7a493b74546efef'
   end
 
   namespace '5.5' do
