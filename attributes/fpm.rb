@@ -35,7 +35,7 @@ namespace 'php', 'fpm' do
     service  'php5-fpm'
   end
 
-  pool_dir File.join(node.php.fpm.conf_dir, node.php.fpm.pool_dir_name)
+  pool_dir File.join(conf_dir, pool_dir_name)
   disable_default_pool true
 end
 
